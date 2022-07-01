@@ -41,9 +41,11 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'rest_framework_simplejwt',
     'django_filters',
+    'import_export',
 
     'account_app',
     'watchlist_app',
+
 
 ]
 # print('Installed app line 44')
