@@ -1,4 +1,4 @@
-# MovieRating
+# Movie Review Rating/StreamPlatform    (beta)
 
 This is a Movie Rating and StreamPlatform using Python (Django). Feel free to make changes based on your requirements.
 
