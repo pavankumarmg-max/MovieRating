@@ -15,6 +15,7 @@ from django_filters.rest_framework import DjangoFilterBackend
 from watchlist_app import models
 from watchlist_app.api import permissions
 from.import serializers
+from watchlist_app.api import pagination
 
 class UserReviwefilter(generics.ListAPIView):
     serializer_class = serializers.ReviewSerializer
@@ -81,6 +82,7 @@ class WatchList(generics.ListAPIView):
     filter_backends=[DjangoFilterBackend]
     filterset_fields = ['title', 'platform__name']
 
+    pagination_class = pagination.WatchListCursorPagination
 
 
 #---PART -3-----------
