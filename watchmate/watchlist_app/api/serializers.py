@@ -55,6 +55,8 @@ class StreamPlatformSerializer(serializers.ModelSerializer):
 
 
 #---Part 1 serializer.Serializer --------------------------------
+#************Complex method*****************
+
 
 # def name_length(value):
 #     if len(value)<2:
